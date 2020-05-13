@@ -72,10 +72,11 @@ public class AccountExample {
 		    	System.out.println("출금 처리가 되었습니다.");
 		    } else if(menu==5) {
 		    	System.out.println("종료선택.");
-		    	
+		    		break;
 		    	
 		    }
 		} // end of while()
-		
+		System.out.println("프로그램 종료.");
 	} // end of class
 }
+
